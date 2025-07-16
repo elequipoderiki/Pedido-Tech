@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- icons  -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <!-- end icons  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiendatech</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body >
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg pt-4 pb-4 ps-3 pe-3">
+            <div class="container">
+              <a class="navbar-brand fs-2 fw-bold" href="#">Tiendatech</a>
+              <a id="carrito" href="pages/carrito.html">
+                <i class="bi bi-cart h1 "></i>
+                <span id="cantidad-carrito">0</span>
+              </a>    
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link fs-5"  href="#productos">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+
+        <!-- hero section -->
+        <section class="hero-content pt-4 d-none d-md-block">
+            <img src="img/portada2.jpg" class="d-block" alt="...">
+            <div class="carousel-img-text"> 
+                <h1>Tiendatech</h1>
+                <p class="fs-1">El lugar de los juguetes electrónicos</p>
+            </div>  
+        </section>
+    
+        <!-- end hero  -->
+        <!-- seccion productos  -->
+        <div id="primary-background">
+
+        <section id="productos" class="">
+            <div id="relleno-superior"></div>
+            <h1 class="section-title">Productos</h1>
+            <br>
+
+            <div class="flex-container-row">
+            </div>
+        </section>
+
+        <!-- seccion reseñas  -->
+        <section id="reseñas" >
+            <br>
+            <h1 class="section-title">Testimonios</h1>
+            <br>
+            <div class="grid-container">
+                <div id="reseña1">
+                    <img src="img/testimonios/person1.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>La mejor tienda online que visité</h3>
+                        <p>Fui por una afeitadora porque mi señora tenìa una reuniòn familiar y me pidio que me saque la barba. Prendì la PC y a los minutos me elegì una Philips Shave importada de China. Que servicio!</p>
+                        <span>Jorge - 34 años</span>
+                    </div>
+                </div>
+                <div id="reseña2">
+                    <img src="img/testimonios/person2.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Sin espera al pagar</h3>
+                        <p>Me fui corriendo al pagar porque se me iba el colectivo. En otras tiendas no tengo ese privilegio, hay que esperar. Pero en esta podìa ver la gente que se tomaba el 32 desde la caja, y lleguè a tiempo!</p>
+                        <span>Analia - 42 años</span>
+                    </div>
+                </div>
+                <div id="reseña3">
+                    <img src="img/testimonios/person3.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Devolución sin cargo</h3>
+                        <p>Tuve que devolver una TV 52" que no tenìa servicio Youtube. Me dieron otra de 42 pulgadas por el mismo precio, pero tiene Youtube. Yo escucho cumbias por ahì, no pensè que fuera tan ràpido el cambio. Estoy muy contento! </p>
+                        <span>Juan - 40 años</span>
+                    </div>
+                </div>
+                <div id="reseña4">
+                    <img src="img/testimonios/person4.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Los precios más baratos que encontré</h3>
+                        <p>Me conseguì una estufa Orbis tiro balanceado baratìsima. Con el frìo que hace. Tengo que conseguirme el taparrollos para las ventanas. Ahora si voy a poder ver la tele hasta tarde!</p>
+                        <span>María - 24 años</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion contacto  -->
+         <section id="contacto">
+            <br>
+            <h1 class="section-title">Contacto</h1>
+            <br>
+            
+            <form action="https://formspree.io/f/xnnqvbgl" 
+                method="post"
+                id="formulario-contacto"
+                class="flex-container-column">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" 
+                    class="form-input"
+                    name="nombre" required
+                    placeholder="Ingrese su nombre">
+                <label for="email">Email</label>
+                <input type="email" 
+                    id="email" 
+                    name="email" 
+                    class="form-input"
+                    required
+                    placeholder="Ingrese su email">
+                <label for="mensaje">Mensaje</label>
+                <textarea rows="4" cols="50" name="mensaje" id="mensaje"
+                placeholder="Escriba su mensaje"></textarea>    
+                <button type="submit" class="form-button">Enviar</button>
+            </form>    
+         </section>
+        </div>
+    </main>
+
+    <footer>
+            <span>Talento Tech &copy; 2024</span>
+            <br>
+            <div>
+                <span>Nosotros</span>
+                <span>Acerca de</span>
+            </div>
+            <br>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
+    <script>
+        actualizarContadorCarrito()
+    </script>
+</body>
+</html>
+
+
