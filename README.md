@@ -1,6 +1,6 @@
 # Pedido Tech
 Tienda online de productos tech
-- El proyecto pedidoAPI contiene el servidor de la página. El servidor está implementado con tecnología SpringBoot, framework web del lenguaje JAVA. La persistencia de los datos fué implementada con H2, base de datos en memoria.
+- El proyecto productosAPI contiene el servidor de la página. El servidor está implementado con tecnología SpringBoot, framework web del lenguaje JAVA. La persistencia de los datos fué implementada con H2, base de datos en memoria.
 - El proyecto frontend contiene código de la interfaz de usuario. Fue implementado con Javascript, HTML5 y CSS.
 
 #### API
@@ -9,7 +9,7 @@ La carpeta productosAPI contiene el código para ejecutar el servidor de la pág
 - ejecute el comando <code>mvnw package</code>
 - luego ejecute el comando <code>mvnw spring-boot:run</code>
 
-Debido a que la persistencia de los datos está implementada con H2 no es necesario ejecutar un motor de base de datos, al ejecutar el servidor ya se incluye la base de datos en la aplicación.
+Debido a que la persistencia de los datos está implementada con H2 no es necesario ejecutar un motor de base de datos, al ejecutar el servidor ya se incluye la base de datos en la aplicación junto a algunos datos de prueba.
 #### Interfaz de usuario
 La interfaz de usuario se ejecuta de la siguiente manera
 - Ejecute el servidor de la API
