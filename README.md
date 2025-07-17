@@ -22,5 +22,40 @@ La interfaz de usuario se ejecuta de la siguiente manera
 
     <img width="500px" src="./frontend/img/pagar.png" alt="image_name png" />
     &nbsp;
-La interfaz de usuario se comunica con el servidor que ejecuta la API por medio de endpoints. Estos se enumeran a continuación
+La interfaz de usuario se comunica con el servidor, donde se ejecuta la API, por medio de endpoints. Estos se obtienen al ejecutarse el servidor y se enumeran a continuación
 #### Endpoints
+- <code>GET api/product</code>
+
+  Devuelve una lista con los productos registrados
+
+- <code>POST api/product</code>
+
+  Crea un producto
+
+  - body <br>
+        `title`: string (requerido) <br> 
+        `price`: double (requerido, no negativo)<br>
+        `stock`: integer (no negativo)<br>
+        `description`: string (requerido) <br>
+        `category`: string <br>
+        `image`: string <br>
+
+- <code>PUT api/product/{id}</code>
+
+  Actualiza un producto a partir de su id (integer) y el cuerpo de la petición
+
+  - body <br>
+        `title`: string  <br> 
+        `price`: double <br>
+        `stock`: integer <br>
+        `description`: string <br>
+        `category`: string <br>
+        `image`: string <br>
+
+- <code>DELETE api/product/{id}</code>
+
+Elimina un producto a partir de su id (integer)
+
+- <code>GET api/product/{id}</code>
+
+Obtiene un producto a partir de su id (integer)
