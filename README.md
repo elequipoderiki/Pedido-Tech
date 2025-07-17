@@ -4,6 +4,12 @@ Tienda online de productos tech
 - El proyecto frontend contiene código de la interfaz de usuario. Fue implementado con Javascript, HTML5 y CSS.
 
 #### API
+La carpeta productosAPI contiene el código para ejecutar el servidor de la página
+- abra una terminal en la carpeta productosAPI
+- ejecute el comando <code>mvnw package</code>
+- luego ejecute el comando <code>mvnw spring-boot:run</code>
+
+Debido a que la persistencia de los datos está implementada con H2 no es necesario ejecutar un motor de base de datos, al ejecutar el servidor ya se incluye la base de datos en la aplicación.
 #### Interfaz de usuario
 La interfaz de usuario se ejecuta de la siguiente manera
 - Ejecute el servidor de la API
@@ -16,3 +22,5 @@ La interfaz de usuario se ejecuta de la siguiente manera
 
     <img width="500px" src="./frontend/img/pagar.png" alt="image_name png" />
     &nbsp;
+La interfaz de usuario se comunica con el servidor que ejecuta la API por medio de endpoints. Estos se enumeran a continuación
+#### Endpoints
