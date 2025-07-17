@@ -8,9 +8,11 @@ Tienda online de productos tech
 La interfaz de usuario se ejecuta de la siguiente manera
 - Ejecute el servidor de la API
 - En la carpeta frontend abrir el archivo index.html en el navegador
-  - Seleccione los productos que desea comprar y pulse el botón comprar, estos se agregarán al carrito de arriba &nbsp;
+  - Seleccione los productos que desea comprar y pulse el botón comprar, estos se agregarán al carrito de arriba 
+    
     <img width="500px" src="./frontend/img/comprar.png" alt="image_name png" />
   &nbsp;
   - Vaya al carrito de compras y pague o cancele la compra
 
     <img width="500px" src="./frontend/img/pagar.png" alt="image_name png" />
+    &nbsp;
