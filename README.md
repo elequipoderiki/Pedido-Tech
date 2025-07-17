@@ -7,6 +7,6 @@ Tienda online de productos tech
 #### Interfaz de usuario
 La interfaz de usuario se ejecuta de la siguiente manera
 - En la carpeta frontend abrir el archivo index.html en el navegador
-  - Seleccione los productos que desea comprar
-  - <img width="30px" src="./frontend/img/comprar.png" alt="image_name png" />
+  - Seleccione los productos que desea comprar y pulse el botón comprar
+  - <img  src="./frontend/img/comprar.png" alt="image_name png" />
   - Vaya al carrito de compras y pague o cancele la compra
