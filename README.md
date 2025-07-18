@@ -54,8 +54,14 @@ La interfaz de usuario se comunica con el servidor, donde se ejecuta la API, por
 
 - <code>DELETE api/product/{id}</code>
 
-Elimina un producto a partir de su id (integer)
+  Elimina un producto a partir de su id (integer)
 
 - <code>GET api/product/{id}</code>
 
-Obtiene un producto a partir de su id (integer)
+  Obtiene un producto a partir de su id (integer)
+
+#### Diagrama Entidad Relación
+
+La base de datos contiene tablas para las entidades Producto, Pedido y ProductoYPedido. Esta última es una tabla intermedia que relaciona productos a los pedidos realizados. El diagrama es el siguiente
+
+<img width="700px" src="./frontend/img/der.png" alt="image_name png" />
